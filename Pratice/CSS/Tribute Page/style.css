@@ -1,0 +1,13 @@
+.bgeffect {
+  background-color: rgb(233, 233, 233) !important;
+  color: rgb(48, 2, 2);
+  font-family: "Dongle", sans-serif;
+  font-size: 30px;
+}
+.jumbotron {
+  font-family: "Roboto", sans-serif !important;
+  background-color: rgb(214, 213, 213) !important;
+}
+.caption {
+  background-color: rgb(214, 213, 213);
+}
