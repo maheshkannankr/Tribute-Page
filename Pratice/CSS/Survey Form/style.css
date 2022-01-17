@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(162, 192, 247);
+  font-family: "Teko", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 20px;
+}
+.formbg {
+  background-color: cornsilk;
+  border-radius: 20px;
+  margin: 100px;
+  padding: 50px;
+}
+input:focus {
+  background-color: rgb(210, 218, 255);
+}
+.sec {
+  padding: 10px;
+}
+legend {
+  font-size: 30px;
+}
+.fullborder {
+  padding: 30px;
+  border: 15px double black;
+  border-radius: 20px;
+}
+input[type="text"] {
+  box-sizing: border-box;
+  padding: 7px 20px;
+  width: 30%;
+  border-radius: 10px;
+  font-family: "Kanit", sans-serif;
+}
+input[type="email"] {
+  box-sizing: border-box;
+  padding: 7px 20px;
+  width: 30%;
+  border-radius: 10px;
+  font-family: "Kanit", sans-serif;
+}
+input[type="number"] {
+  box-sizing: border-box;
+  padding: 7px 20px;
+  width: 30%;
+  border-radius: 10px;
+  font-family: "Kanit", sans-serif;
+}
+input[type="date"] {
+  box-sizing: border-box;
+  padding: 7px 20px;
+  width: 30%;
+  border-radius: 10px;
+  font-family: "Kanit", sans-serif;
+}
+select {
+  box-sizing: border-box;
+  padding: 7px 20px;
+  width: 30%;
+  border-radius: 10px;
+  font-family: "Kanit", sans-serif;
+}
+textarea {
+  box-sizing: border-box;
+  padding: 7px 20px;
+  width: 30%;
+  border-radius: 10px;
+  font-family: "Kanit", sans-serif;
+}
+input {
+  margin-left: 50px;
+}
+button[type="submit"] {
+  position: relative;
+  width: auto;
+  background-color: cyan;
+  padding: 17px 10px;
+  width: 30%;
+  border-radius: 10px;
+  font-family: "Kanit", sans-serif;
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  font-style: italic;
+}
+input[type="file"]::file-selector-button {
+  box-sizing: border-box;
+  padding: 7px 20px;
+  width: 50%;
+  border-radius: 10px;
+  font-family: "Kanit", sans-serif;
+}
+.submit {
+  margin-top: 50px;
+  text-align: center;
+}
+button[type="submit"]:hover {
+  background-color: burlywood;
+}
+input[type="file"]::file-selector-button:hover {
+  background-color: burlywood;
+}
